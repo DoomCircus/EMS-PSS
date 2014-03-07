@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].Users
+(
+	[UserName] NVARCHAR(30) NOT NULL PRIMARY KEY, 
+    [FirstName] NVARCHAR(30) NOT NULL, 
+    [LastName] NVARCHAR(30) NOT NULL
+)

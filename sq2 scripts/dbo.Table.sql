@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].Employee
+(
+	[EmployeeId] INT NOT NULL PRIMARY KEY IDENTITY(1,1), 
+    [SIN/BN] NVARCHAR(10) NOT NULL, 
+    [LastName] NVARCHAR(30) NOT NULL, 
+    [FirstName] NVARCHAR(30) NOT NULL, 
+    [DateOfBirth] NVARCHAR(11) NOT NULL
+)
